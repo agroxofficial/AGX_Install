@@ -9,7 +9,7 @@ COIN_PATH='/usr/local/bin/'
 COIN_TGZ='http://66.42.42.97/Linux.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='AGROX'
-COIN_EXPLORER='http://178.128.155.236'
+COIN_EXPLORER='http://149.28.174.39'
 COIN_PORT=60033
 RPC_PORT=60034
 
@@ -292,4 +292,3 @@ checks
 prepare_system
 download_node
 setup_node
-
